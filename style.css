@@ -307,6 +307,13 @@ a:hover {
     display: inline;
 }
 
+.navbar-header p{
+    font-size: 25px;
+    font-family: 'Viaoda Libre', cursivve;
+    padding: 0px;
+    color: black!important;
+}
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -360,6 +367,13 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
 }
 
 @media (min-width: 768px) {
