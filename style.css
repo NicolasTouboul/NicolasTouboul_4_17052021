@@ -272,6 +272,11 @@ a:hover {
     margin-top: 80px;
 }
 
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -281,6 +286,9 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+.col-sm-6 img{
+    width: 100%;
 }
 
 #bloc-1-hero h1 {
@@ -312,6 +320,9 @@ a:hover {
     font-family: 'Viaoda Libre', cursivve;
     padding: 0px;
     color: black!important;
+}
+.navbar-header a{
+    display: flex;
 }
 
 .navbar-brand img[src$=svg] {
@@ -785,15 +796,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f77621;
+    background-color: #86330c;
 }
 
 .tc-white {
-    color: #f3e66c!important;
+    color: #f3ea6c!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #86330c;
     color: #FFFFFF!important;
 }
 
@@ -995,6 +1006,9 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+    }
+    .contact{
+        width: 100%;
     }
     .bloc-sm,
     .bloc-md {
